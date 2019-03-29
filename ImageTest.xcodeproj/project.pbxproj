@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6ACBE4552246D8E500DAE14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE4542246D8E500DAE14D /* AppDelegate.swift */; };
-		6ACBE4572246D8E500DAE14D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE4562246D8E500DAE14D /* ViewController.swift */; };
 		6ACBE45A2246D8E500DAE14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBE4582246D8E500DAE14D /* Main.storyboard */; };
 		6ACBE45C2246D8E600DAE14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBE45B2246D8E600DAE14D /* Assets.xcassets */; };
 		6ACBE45F2246D8E600DAE14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBE45D2246D8E600DAE14D /* LaunchScreen.storyboard */; };
+		6ACBE4672246D9EF00DAE14D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE4662246D9EF00DAE14D /* ImageViewController.swift */; };
+		6ACBE46B2248620F00DAE14D /* My181ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBE46A2248620F00DAE14D /* My181ViewController.swift */; };
+		6AE20ABB22497E2F00CAF4D4 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE20ABA22497E2F00CAF4D4 /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6ACBE4512246D8E500DAE14D /* ImageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACBE4542246D8E500DAE14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ACBE4562246D8E500DAE14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6ACBE4592246D8E500DAE14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ACBE45B2246D8E600DAE14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ACBE45E2246D8E600DAE14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ACBE4602246D8E600DAE14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACBE4662246D9EF00DAE14D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		6ACBE46A2248620F00DAE14D /* My181ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My181ViewController.swift; sourceTree = "<group>"; };
+		6AE20ABA22497E2F00CAF4D4 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		6ACBE4532246D8E500DAE14D /* ImageTest */ = {
 			isa = PBXGroup;
 			children = (
+				6ACBE46A2248620F00DAE14D /* My181ViewController.swift */,
 				6ACBE4542246D8E500DAE14D /* AppDelegate.swift */,
-				6ACBE4562246D8E500DAE14D /* ViewController.swift */,
 				6ACBE4582246D8E500DAE14D /* Main.storyboard */,
+				6ACBE4662246D9EF00DAE14D /* ImageViewController.swift */,
 				6ACBE45B2246D8E600DAE14D /* Assets.xcassets */,
 				6ACBE45D2246D8E600DAE14D /* LaunchScreen.storyboard */,
 				6ACBE4602246D8E600DAE14D /* Info.plist */,
+				6AE20ABA22497E2F00CAF4D4 /* DemoURL.swift */,
 			);
 			path = ImageTest;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ACBE4572246D8E500DAE14D /* ViewController.swift in Sources */,
+				6AE20ABB22497E2F00CAF4D4 /* DemoURL.swift in Sources */,
+				6ACBE4672246D9EF00DAE14D /* ImageViewController.swift in Sources */,
 				6ACBE4552246D8E500DAE14D /* AppDelegate.swift in Sources */,
+				6ACBE46B2248620F00DAE14D /* My181ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
